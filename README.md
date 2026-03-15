@@ -1,0 +1,1 @@
+# This project is a food delivery platform inspired by apps like iFood and Uber Eats. It was built for educational and portfolio purposes only.
