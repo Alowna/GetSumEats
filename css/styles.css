@@ -1,0 +1,77 @@
+header
+{
+    background-color:rgba(255, 166, 0, 0.75);
+    border-radius: 1vw;
+    padding: 1vw;
+    text-align: center;
+    font-size: 5vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.menu
+{
+    margin: 0;
+    border-radius: 1vw;
+    
+    display: flex;
+    
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+.menuItem
+{
+    border-radius: 1vw;
+    display: inline-block;
+
+    padding: 1vw;
+
+    font-size: 3.5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    background-color: Red;
+    color: white;
+    
+}
+
+.itemsmenu{
+    margin: 1vw;
+    display: flex;
+    
+    
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 5vw;
+    justify-content: space-around;
+
+}
+
+.testitem{
+
+    background-color: green;
+    width: 25vw;
+    height: 30vh;
+    border-radius: 1vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.testitemtitle{
+    font-size: 3vw;
+    text-align: center;
+}
+.testitemimage{
+    
+    width: 80%;
+    height: 80%;
+    background-image: url(https://i.ytimg.com/vi/yHcIM6mEKhk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGkds2VP3XyNmBGaihVhTH_ENJ3Q);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    background-position: center;
+    border-radius: 5vw;
+
+}
